@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90EF42D22D78D67023ABBDDE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50F04A0BDF8A2ACF56103BB /* Pods.framework */; };
 		C32748691C487F4300CDD669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748681C487F4300CDD669 /* main.m */; };
 		C327486C1C487F4300CDD669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C327486B1C487F4300CDD669 /* AppDelegate.m */; };
 		C327486F1C487F4300CDD669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C327486E1C487F4300CDD669 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		C32748771C487F4300CDD669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748751C487F4300CDD669 /* LaunchScreen.storyboard */; };
 		C32748821C487F4300CDD669 /* cbsNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748811C487F4300CDD669 /* cbsNetWorkTests.m */; };
 		C327488D1C487F4300CDD669 /* cbsNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C327488C1C487F4300CDD669 /* cbsNetWorkUITests.m */; };
+		C327489E1C4880DB00CDD669 /* cbsNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C327489D1C4880DB00CDD669 /* cbsNetWork.m */; };
+		C32748A11C4883C900CDD669 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748A01C4883C900CDD669 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D596C413CB7BCE531397462 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C32748641C487F4300CDD669 /* cbsNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cbsNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32748681C487F4300CDD669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C327486A1C487F4300CDD669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		C32748881C487F4300CDD669 /* cbsNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cbsNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C327488C1C487F4300CDD669 /* cbsNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cbsNetWorkUITests.m; sourceTree = "<group>"; };
 		C327488E1C487F4300CDD669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C327489C1C4880DB00CDD669 /* cbsNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbsNetWork.h; sourceTree = "<group>"; };
+		C327489D1C4880DB00CDD669 /* cbsNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cbsNetWork.m; sourceTree = "<group>"; };
+		C327489F1C4883C900CDD669 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C32748A01C4883C900CDD669 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E50F04A0BDF8A2ACF56103BB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD9BF6B59C5FD99BDFA956F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EF42D22D78D67023ABBDDE /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73B775D8B95841ADD082BEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E50F04A0BDF8A2ACF56103BB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C327485B1C487F4300CDD669 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				C32748801C487F4300CDD669 /* cbsNetWorkTests */,
 				C327488B1C487F4300CDD669 /* cbsNetWorkUITests */,
 				C32748651C487F4300CDD669 /* Products */,
+				D23103ABF64D2A1172FE079E /* Pods */,
+				73B775D8B95841ADD082BEB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,8 @@
 		C32748661C487F4300CDD669 /* cbsNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				C327489B1C487F7200CDD669 /* model */,
+				C327489A1C487F6800CDD669 /* network */,
 				C327486A1C487F4300CDD669 /* AppDelegate.h */,
 				C327486B1C487F4300CDD669 /* AppDelegate.m */,
 				C327486D1C487F4300CDD669 /* ViewController.h */,
@@ -140,6 +163,33 @@
 			path = cbsNetWorkUITests;
 			sourceTree = "<group>";
 		};
+		C327489A1C487F6800CDD669 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C327489C1C4880DB00CDD669 /* cbsNetWork.h */,
+				C327489D1C4880DB00CDD669 /* cbsNetWork.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		C327489B1C487F7200CDD669 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C327489F1C4883C900CDD669 /* Model.h */,
+				C32748A01C4883C900CDD669 /* Model.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D23103ABF64D2A1172FE079E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D596C413CB7BCE531397462 /* Pods.debug.xcconfig */,
+				EFD9BF6B59C5FD99BDFA956F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32748911C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWork" */;
 			buildPhases = (
+				DE2740FC51B98C7BEF5446F7 /* Check Pods Manifest.lock */,
 				C32748601C487F4300CDD669 /* Sources */,
 				C32748611C487F4300CDD669 /* Frameworks */,
 				C32748621C487F4300CDD669 /* Resources */,
+				8C57504637EDC9529A12874D /* Embed Pods Frameworks */,
+				7D805CA8E63F8964777A30B1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +318,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D805CA8E63F8964777A30B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C57504637EDC9529A12874D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2740FC51B98C7BEF5446F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C32748601C487F4300CDD669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C327486F1C487F4300CDD669 /* ViewController.m in Sources */,
+				C327489E1C4880DB00CDD669 /* cbsNetWork.m in Sources */,
 				C327486C1C487F4300CDD669 /* AppDelegate.m in Sources */,
 				C32748691C487F4300CDD669 /* main.m in Sources */,
+				C32748A11C4883C900CDD669 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +514,7 @@
 		};
 		C32748921C487F4300CDD669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D596C413CB7BCE531397462 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cbsNetWork/Info.plist;
@@ -422,6 +526,7 @@
 		};
 		C32748931C487F4300CDD669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD9BF6B59C5FD99BDFA956F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cbsNetWork/Info.plist;
@@ -498,6 +603,7 @@
 				C32748931C487F4300CDD669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32748941C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +612,7 @@
 				C32748961C487F4300CDD669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32748971C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +621,7 @@
 				C32748991C487F4300CDD669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "cbsNetWork.h"
+#import "Model.h"
 
 @interface ViewController ()
 
@@ -19,9 +21,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)network:(id)sender
+{
+    [[cbsNetWork sharedManager] requestWithMethod:GET WithPath:@"get" WithParams:nil WithSuccessBlock:^(NSDictionary *dic) {
+        Model *model = [MTLJSONAdapter modelOfClass:[Model class] fromJSONDictionary:dic error:nil];
+        NSLog(@"%@", model.origin);
+    } WithFailurBlock:^(NSError *error) {
+        
+    }];
 }
+
 
 @end
