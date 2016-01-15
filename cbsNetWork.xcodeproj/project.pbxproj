@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32748691C487F4300CDD669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748681C487F4300CDD669 /* main.m */; };
+		C327486C1C487F4300CDD669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C327486B1C487F4300CDD669 /* AppDelegate.m */; };
+		C327486F1C487F4300CDD669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C327486E1C487F4300CDD669 /* ViewController.m */; };
+		C32748721C487F4300CDD669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748701C487F4300CDD669 /* Main.storyboard */; };
+		C32748741C487F4300CDD669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32748731C487F4300CDD669 /* Assets.xcassets */; };
+		C32748771C487F4300CDD669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748751C487F4300CDD669 /* LaunchScreen.storyboard */; };
+		C32748821C487F4300CDD669 /* cbsNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748811C487F4300CDD669 /* cbsNetWorkTests.m */; };
+		C327488D1C487F4300CDD669 /* cbsNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C327488C1C487F4300CDD669 /* cbsNetWorkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C327487E1C487F4300CDD669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327485C1C487F4300CDD669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32748631C487F4300CDD669;
+			remoteInfo = cbsNetWork;
+		};
+		C32748891C487F4300CDD669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327485C1C487F4300CDD669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32748631C487F4300CDD669;
+			remoteInfo = cbsNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32748641C487F4300CDD669 /* cbsNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cbsNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32748681C487F4300CDD669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C327486A1C487F4300CDD669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C327486B1C487F4300CDD669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C327486D1C487F4300CDD669 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C327486E1C487F4300CDD669 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C32748711C487F4300CDD669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32748731C487F4300CDD669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32748761C487F4300CDD669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32748781C487F4300CDD669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C327487D1C487F4300CDD669 /* cbsNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cbsNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32748811C487F4300CDD669 /* cbsNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cbsNetWorkTests.m; sourceTree = "<group>"; };
+		C32748831C487F4300CDD669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32748881C487F4300CDD669 /* cbsNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cbsNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C327488C1C487F4300CDD669 /* cbsNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cbsNetWorkUITests.m; sourceTree = "<group>"; };
+		C327488E1C487F4300CDD669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32748611C487F4300CDD669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327487A1C487F4300CDD669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32748851C487F4300CDD669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C327485B1C487F4300CDD669 = {
+			isa = PBXGroup;
+			children = (
+				C32748661C487F4300CDD669 /* cbsNetWork */,
+				C32748801C487F4300CDD669 /* cbsNetWorkTests */,
+				C327488B1C487F4300CDD669 /* cbsNetWorkUITests */,
+				C32748651C487F4300CDD669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32748651C487F4300CDD669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32748641C487F4300CDD669 /* cbsNetWork.app */,
+				C327487D1C487F4300CDD669 /* cbsNetWorkTests.xctest */,
+				C32748881C487F4300CDD669 /* cbsNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32748661C487F4300CDD669 /* cbsNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C327486A1C487F4300CDD669 /* AppDelegate.h */,
+				C327486B1C487F4300CDD669 /* AppDelegate.m */,
+				C327486D1C487F4300CDD669 /* ViewController.h */,
+				C327486E1C487F4300CDD669 /* ViewController.m */,
+				C32748701C487F4300CDD669 /* Main.storyboard */,
+				C32748731C487F4300CDD669 /* Assets.xcassets */,
+				C32748751C487F4300CDD669 /* LaunchScreen.storyboard */,
+				C32748781C487F4300CDD669 /* Info.plist */,
+				C32748671C487F4300CDD669 /* Supporting Files */,
+			);
+			path = cbsNetWork;
+			sourceTree = "<group>";
+		};
+		C32748671C487F4300CDD669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32748681C487F4300CDD669 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32748801C487F4300CDD669 /* cbsNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32748811C487F4300CDD669 /* cbsNetWorkTests.m */,
+				C32748831C487F4300CDD669 /* Info.plist */,
+			);
+			path = cbsNetWorkTests;
+			sourceTree = "<group>";
+		};
+		C327488B1C487F4300CDD669 /* cbsNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C327488C1C487F4300CDD669 /* cbsNetWorkUITests.m */,
+				C327488E1C487F4300CDD669 /* Info.plist */,
+			);
+			path = cbsNetWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32748631C487F4300CDD669 /* cbsNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32748911C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWork" */;
+			buildPhases = (
+				C32748601C487F4300CDD669 /* Sources */,
+				C32748611C487F4300CDD669 /* Frameworks */,
+				C32748621C487F4300CDD669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cbsNetWork;
+			productName = cbsNetWork;
+			productReference = C32748641C487F4300CDD669 /* cbsNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C327487C1C487F4300CDD669 /* cbsNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32748941C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkTests" */;
+			buildPhases = (
+				C32748791C487F4300CDD669 /* Sources */,
+				C327487A1C487F4300CDD669 /* Frameworks */,
+				C327487B1C487F4300CDD669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C327487F1C487F4300CDD669 /* PBXTargetDependency */,
+			);
+			name = cbsNetWorkTests;
+			productName = cbsNetWorkTests;
+			productReference = C327487D1C487F4300CDD669 /* cbsNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32748871C487F4300CDD669 /* cbsNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32748971C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkUITests" */;
+			buildPhases = (
+				C32748841C487F4300CDD669 /* Sources */,
+				C32748851C487F4300CDD669 /* Frameworks */,
+				C32748861C487F4300CDD669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C327488A1C487F4300CDD669 /* PBXTargetDependency */,
+			);
+			name = cbsNetWorkUITests;
+			productName = cbsNetWorkUITests;
+			productReference = C32748881C487F4300CDD669 /* cbsNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C327485C1C487F4300CDD669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cbs;
+				TargetAttributes = {
+					C32748631C487F4300CDD669 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C327487C1C487F4300CDD669 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C32748631C487F4300CDD669;
+					};
+					C32748871C487F4300CDD669 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C32748631C487F4300CDD669;
+					};
+				};
+			};
+			buildConfigurationList = C327485F1C487F4300CDD669 /* Build configuration list for PBXProject "cbsNetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C327485B1C487F4300CDD669;
+			productRefGroup = C32748651C487F4300CDD669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32748631C487F4300CDD669 /* cbsNetWork */,
+				C327487C1C487F4300CDD669 /* cbsNetWorkTests */,
+				C32748871C487F4300CDD669 /* cbsNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32748621C487F4300CDD669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32748771C487F4300CDD669 /* LaunchScreen.storyboard in Resources */,
+				C32748741C487F4300CDD669 /* Assets.xcassets in Resources */,
+				C32748721C487F4300CDD669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327487B1C487F4300CDD669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32748861C487F4300CDD669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32748601C487F4300CDD669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327486F1C487F4300CDD669 /* ViewController.m in Sources */,
+				C327486C1C487F4300CDD669 /* AppDelegate.m in Sources */,
+				C32748691C487F4300CDD669 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32748791C487F4300CDD669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32748821C487F4300CDD669 /* cbsNetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32748841C487F4300CDD669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327488D1C487F4300CDD669 /* cbsNetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C327487F1C487F4300CDD669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32748631C487F4300CDD669 /* cbsNetWork */;
+			targetProxy = C327487E1C487F4300CDD669 /* PBXContainerItemProxy */;
+		};
+		C327488A1C487F4300CDD669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32748631C487F4300CDD669 /* cbsNetWork */;
+			targetProxy = C32748891C487F4300CDD669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32748701C487F4300CDD669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32748711C487F4300CDD669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32748751C487F4300CDD669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32748761C487F4300CDD669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C327488F1C487F4300CDD669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32748901C487F4300CDD669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32748921C487F4300CDD669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cbsNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32748931C487F4300CDD669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cbsNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32748951C487F4300CDD669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cbsNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cbsNetWork.app/cbsNetWork";
+			};
+			name = Debug;
+		};
+		C32748961C487F4300CDD669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cbsNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cbsNetWork.app/cbsNetWork";
+			};
+			name = Release;
+		};
+		C32748981C487F4300CDD669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cbsNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cbsNetWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C32748991C487F4300CDD669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cbsNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.cbsNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cbsNetWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C327485F1C487F4300CDD669 /* Build configuration list for PBXProject "cbsNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C327488F1C487F4300CDD669 /* Debug */,
+				C32748901C487F4300CDD669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32748911C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32748921C487F4300CDD669 /* Debug */,
+				C32748931C487F4300CDD669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32748941C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32748951C487F4300CDD669 /* Debug */,
+				C32748961C487F4300CDD669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32748971C487F4300CDD669 /* Build configuration list for PBXNativeTarget "cbsNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32748981C487F4300CDD669 /* Debug */,
+				C32748991C487F4300CDD669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C327485C1C487F4300CDD669 /* Project object */;
+}
